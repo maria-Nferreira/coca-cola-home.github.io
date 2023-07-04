@@ -1,0 +1,1073 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* fonte baixada */
+@font-face {
+    font-family: keep;
+    src: url(fonte/KeepCalm-Medium.woff);
+}
+
+
+
+
+
+/* variáveis */
+:root {
+    --cor-fundo: #DE1F26;
+    --cor-texto: white;
+    --font-texto: arial;
+    --cor-fundo-botao: white;
+    --cor-lata-light: #e0e0e0;
+    --cor-lata-zero: #252525;
+}
+
+
+
+body {
+    background: var(--cor-fundo);
+}
+
+
+/* botao-entrar-login */
+ul#navegacao li a.botao-login {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: white;
+    border: solid 2px white;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+
+
+
+
+
+/* botao-mobile */
+#botao-mobile {
+    color: white;
+    border: solid white 2px;
+}
+
+
+
+/* MENU NAVEGAÇÃO */
+ul#navegacao li a {
+    padding: 0px  20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-texto);
+    transition: 1s all;
+}
+
+
+
+
+/* seção imagem-texto */
+#imagem-texto {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.imagem-coca {
+    display: flex;
+    justify-content: end;
+}
+
+.texto-coca h1 {
+    color: var(--cor-texto);
+    font-family: keep;
+}
+
+.texto-coca p {
+    color: var(--cor-texto);
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-family: var(--font-texto);
+    
+}
+
+.botao-site {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    font-weight: 600;
+    background-color: var(--cor-fundo-botao);
+    color: black;
+}
+
+.botao-site-2 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    font-weight: 600;
+    background-color: var(--cor-lata-zero);
+    color: var(--cor-texto);
+}
+
+
+
+/* redes sociais */
+.redes-sociais>a {
+    font-size: 2em;
+    display: flex;
+    border: none;
+    text-decoration: none;
+    color: var(--cor-texto);
+    justify-content: end;
+    
+}
+
+a.margem-link {
+    margin: 30px 0;
+}
+
+
+
+
+/* botoes lata */
+.botoes-lata>button {
+    width: 50px;
+    height: 80px;
+    border: none;
+    background-color: var(--cor-fundo);
+}
+
+#lata-light {
+    margin: 0 10px; /* aplicando a margem interna nas extreminades */
+}
+
+
+
+
+/* secao regiao */
+#regiao {
+    background-color: white;
+}
+
+#texto-regiao {
+    padding: 200px 200px ;
+
+    
+}
+
+#texto-regiao>h1 {
+    font-family: keep;
+    font-size: 2.5em;
+    color:var(--cor-lata-zero);
+}
+
+
+#imagem-pessoas {
+    background-image: url(imagens/pessoas.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* seçao produtos */
+#produtos {
+    background-color: var(--cor-lata-zero);
+}
+
+#texto-produto {
+    padding: 150px 0 ;
+    text-align: end;
+}
+
+#texto-produto>h1 {
+    font-family: keep;
+    font-size: 2.5em;
+    color: white;
+}
+
+#texto-produto>p {
+    color: white;
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-family: var(--font-texto);
+}
+
+
+
+
+
+
+
+/* secao coca retornável online */
+#retornavel-online {
+    background-color: white;
+    
+}
+
+#texto-retornavel-online {
+    padding: 150px 0 ;
+    
+}
+
+#imagem-retornavel-online {
+    padding: 50px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#texto-retornavel-online>h1 {
+    font-family: keep;
+    font-size: 2.5em;
+    color:var(--cor-lata-zero);
+}
+
+#texto-retornavel-online>p {
+    color:var(--cor-lata-zero);
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-family: var(--font-texto);
+}
+
+#imagem-retornavel-online {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
+/* secao coca retornável */
+#cadastro {
+    background-color: var(--cor-lata-zero);
+
+}
+
+#texto-cadastro {
+    padding: 200px 200px;
+    text-align: end;
+}
+
+#texto-cadastro>h1 {
+    font-family: keep;
+    font-size: 2.5em;
+    color:var(--cor-lata-light);
+}
+
+
+
+#imagem-cadastro {
+    background-image: url(imagens/photo_2023-06-11_18-55-48.jpg);
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* rodape */
+footer {
+    background-color: white;
+}
+
+/* todos os links do footer em inline-block */
+footer .links-contato {
+    display: inline-block;
+    font-family: var(--font-texto);
+}
+
+/*  link-contato-whatsapp */
+a#link-contato {
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 25px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: var(--cor-texto);
+    background-color: var(--cor-lata-zero);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    
+    transition: all 1s;
+}
+
+a#link-contato:hover {
+    color: var(--cor-lata-light);
+    
+}
+
+a#link-contato>i {
+    font-size: 1.5em;
+    margin-left: 5px;
+}
+
+
+/* link contato número */
+a#link-numero {
+    text-decoration: none;
+    color: var(--cor-lata-zero);
+    font-weight: 600;
+    
+}
+
+
+/* navegação footer */
+ul#navegacao-menu-footer,
+ul#navegacao-menu-footer-2 {
+    margin: 0;
+    padding: 0;
+} 
+
+#navegacao-footer {
+    display: flex;
+    justify-content: end;
+}
+#navegacao-footer-2 {
+    display: flex;
+    justify-content: center
+}
+
+ul#navegacao-menu-footer li>h5 {
+    font-weight: 600;
+    font-family: var(--font-texto);
+    color: var(--cor-lata-zero);
+}
+
+ul#navegacao-menu-footer li {
+    padding: 3px 0;
+    list-style-type: none;
+}
+
+ul#navegacao-menu-footer li>a {
+    display: inline-block;
+    color: var(--cor-lata-zero);
+    font-family: var(--font-texto);
+}
+
+ul#navegacao-menu-footer li>a:hover{
+    text-decoration:underline;
+}
+
+
+/* redes sociais, cadastro e regulamento */
+/* botoes-footer */
+#botoes-footer {
+    display: flex;
+    justify-content: space-between;
+}   
+#botoes-footer>button {
+    border: solid 2px var(--cor-lata-zero);
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-weight: 600;
+    background-color: var(--cor-texto);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    transition: all 1s;
+}
+
+#botoes-footer>button:hover {
+    color: var(--cor-texto);
+    background-color: var(--cor-lata-zero);
+}
+
+
+/* redes sociais footer */
+#redes-sociais-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#redes-sociais-footer>button {
+    font-size: 1em;
+    color: var(--cor-texto);
+    background-color: var(--cor-lata-zero);
+    padding: 5px 12px;
+    border: solid 2px var(--cor-lata-zero);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    transition: all 1s;
+}
+
+#redes-sociais-footer>button:hover{
+    color: var(--cor-lata-light);
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 280.00px) and (max-width: 767.99px){ 
+
+    /* logo site */
+    #logo {
+        width: 125px;
+    }
+
+
+    /* botão entrar */
+    ul#navegacao li>a.botao-login {
+        font-size: 0.9em;
+        margin: 50px 0;
+    }
+    
+
+    /* menu navegação */
+    #menu-navegacao {
+        margin-top: 10px;
+    }
+
+    ul#navegacao li a {
+        padding: 5px 0;
+    }
+
+    ul#navegacao>li.navbar-item>a#botao-entrar {
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+
+
+
+
+    /* botões site */
+    .botao-site,
+    .botao-site-2 {
+        font-size: 0.85em;
+    }
+    
+
+
+
+    /* secao imagem texto */
+    #imagem-texto {
+        margin-top: 0px;
+    }
+
+    .texto-coca {
+        order: 3;
+        margin-top: 28px;
+        
+    }
+
+    .texto-coca h1 {
+        font-size: 2em;
+        text-align: center;
+        
+    }
+
+    .texto-coca p {
+        font-size: 1em;
+    }
+
+    .imagem-coca {
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        order: 1;
+    }
+
+    .imagem-coca img {
+        width: 150px;
+    }
+
+
+    /* redes sociais */
+    .redes-sociais {
+        display: none;
+        order: 4;
+    }
+
+
+
+
+
+    /* botões lata */
+    .botoes-lata {
+        order: 2;
+    }
+
+    .botoes-lata img,
+    .botoes-lata>button {
+        width: 40px;
+        height: 70px;
+    }
+
+
+
+
+    /* secao regiao */
+    #texto-regiao {
+        padding: 50px 10px;
+    }
+
+    #texto-regiao>h1 {
+        font-family: keep;
+        font-size: 2em;
+        color:var(--cor-lata-zero);
+    }
+
+    #imagem-pessoas {
+        display: none;
+    }
+
+
+
+
+    /* seçao produtos */
+    #produtos {
+        padding: 50px 10px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    #texto-produto {
+        padding: 0 ;
+        text-align: start;
+    }
+
+    #texto-produto>h1 {
+        font-family: keep;
+        font-size: 2em;
+        color: white;
+    }
+
+    #texto-produto>p {
+        font-size: 1em;
+        
+    }
+
+
+
+    /* secao coca retornável online */
+    #retornavel-online {
+        padding: 50px 10px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    
+    }
+
+    #texto-retornavel-online {
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    #imagem-retornavel-online {
+        margin-top: 0;
+    }
+
+    #texto-retornavel-online>h1 {
+        font-size: 2em;
+    }
+
+    #texto-retornavel-online>p {
+        font-size: 1em;
+        
+    }
+    #imagem-retornavel-online {
+        display: none;
+    }
+
+
+
+
+    /* seção cadastro */
+    #texto-cadastro {
+        padding: 50px 10px ;
+        text-align: start;
+    }
+    
+    #texto-cadastro>h1 {
+        font-family: keep;
+        font-size: 2em;
+        color:var(--cor-lata-light);
+    }
+    
+
+
+    /* FOOTER */
+    /* todos os links do footer em inline-block */
+    footer #logo-footer {
+        display: block;
+        width: 125px;
+    }
+   
+    /* icon whatsapp */
+    a#link-contato>i {
+        font-size: 1.2em;
+        margin-left: 5px;
+    }
+
+    /* link contato número */
+    a#link-numero {
+        text-decoration: none;
+        color: var(--cor-lata-zero);
+        font-weight: 600;
+    
+    }
+
+
+    /* navegação footer */
+    #navegacao-footer {
+        display: flex;
+        justify-content: start;
+    }
+    #navegacao-footer-2 {
+        display: flex;
+        justify-content: start
+    }
+
+    ul#navegacao-menu-footer {
+        margin-top: 30px;
+    }
+
+    ul#navegacao-menu-footer li>h5 {
+        font-weight: 600;
+        font-family: var(--font-texto);
+        color: var(--cor-lata-zero);
+    }
+
+    ul#navegacao-menu-footer li {
+        padding: 3px 0;
+        list-style-type: none;
+    }
+
+
+
+    /* redes sociais, cadastro e regulamento */
+    #cadastro-redes-sociais {
+        margin-top: 30px;
+    }
+
+    /* botoes-footer */
+    #botoes-footer {
+        display: flex;
+        justify-content: space-evenly;
+    }   
+    
+    #botoes-footer>button {
+        font-size: 0.95em;
+    }
+
+
+
+    /* redes sociais footer */
+    #redes-sociais-footer {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width: 768.00px) and (max-width: 1024.99px) {
+    /* logo site */
+    #logo {
+        width: 135px;
+    }
+
+
+    /* botões site */
+    .botao-site,
+    .botao-site-2 {
+        font-size: 1em;
+    }
+
+
+
+
+    /* secao imagem texto */
+    #imagem-texto {
+        margin-top: 60px;
+    }
+
+    .texto-coca h1 {
+        font-size: 3em;
+        
+    }
+
+    .texto-coca p {
+        font-size: 1.1em;
+    }
+
+    .imagem-coca {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .imagem-coca img {
+        width: 200px;
+    }
+
+
+    /* redes sociais */
+    .redes-sociais {
+        display: none;
+    }
+    
+    
+
+    /* botões lata */
+    .botoes-lata img,
+    .botoes-lata>button {
+        width: 45px;
+        height: 75px;
+    }
+    
+
+
+    /* secao regiao */
+    #texto-regiao {
+        padding: 100px 45px;
+    }
+
+    #texto-regiao>h1 {
+        font-family: keep;
+        font-size: 2.1em;
+        color:var(--cor-lata-zero);
+    }
+
+    #imagem-pessoas {
+        display: block;
+    }
+
+
+    /* seçao produtos */
+    #produtos {
+        padding: 100px 10px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    #texto-produto {
+        padding: 0;
+        text-align: start;
+    }
+
+    #texto-produto>h1 {
+        font-family: keep;
+        font-size: 2.1em;
+        color: white;
+    }
+
+    #texto-produto>p {
+        font-size: 1.2em;
+        
+    }
+
+    #imagem-produto {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+
+
+
+    /* secao coca retornável online */
+    #retornavel-online {
+        padding: 20px 10px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    
+    }
+
+    #texto-retornavel-online {
+        padding: 100px 10px;
+        
+    }
+
+    #imagem-retornavel-online {
+        margin-top: 0;
+        padding: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #imagem-retornavel-online>img {
+        width: 300px;
+    }
+
+    #texto-retornavel-online>h1 {
+        font-size: 2.1em;
+    }
+
+    #texto-retornavel-online>p {
+        font-size: 1.2em;
+        
+    }
+    #imagem-retornavel-online {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+
+
+
+    /* seção cadastro */
+    #texto-cadastro {
+        padding: 100px 45px;
+        text-align: end;
+    }
+    
+    #texto-cadastro>h1 {
+        font-family: keep;
+        font-size: 2.1em;
+        color:var(--cor-lata-light);
+    }
+    
+
+
+
+    /* FOOTER */
+    /* todos os links do footer em inline-block */
+    footer #logo-footer {
+        display: block;
+        width: 125px;
+    }
+   
+    /* icon whatsapp */
+    a#link-contato>i {
+        font-size: 1.5em;
+        margin-left: 5px;
+    }
+
+    /* link contato número */
+    a#link-numero {
+        text-decoration: none;
+        color: var(--cor-lata-zero);
+        font-weight: 600;
+        font-size: 1.1em
+    }
+
+
+    /* navegação footer */
+    #navegacao-footer {
+        display: flex;
+        justify-content: start;
+    }
+    #navegacao-footer-2 {
+        display: flex;
+        justify-content: start
+    }
+
+    ul#navegacao-menu-footer {
+        margin-top: 30px;
+    }
+
+    ul#navegacao-menu-footer li>h5 {
+        font-weight: 600;
+        font-family: var(--font-texto);
+        color: var(--cor-lata-zero);
+    }
+
+    ul#navegacao-menu-footer li {
+        padding: 3px 0;
+        list-style-type: none;
+    }
+
+
+
+    /* redes sociais, cadastro e regulamento */
+    #cadastro-redes-sociais {
+        margin-top: 30px;
+    }
+
+    /* botoes-footer */
+    #botoes-footer {
+        display: flex;
+        justify-content: space-evenly;
+    }   
+    
+    #botoes-footer>button {
+        font-size: 0.95em;
+    }
+
+
+
+    /* redes sociais footer */
+    #redes-sociais-footer {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1025.00px) and (max-width: 1199.99px) {
+    
+    /* botões site */
+    .botao-site,
+    .botao-site-2 {
+        font-size: 1em;
+    }
+    
+    /* secao imagem texto */
+    #imagem-texto {
+        margin-top: 60px;
+    }
+
+    .texto-coca h1 {
+        font-size: 3em;
+        
+    }
+
+    .texto-coca p {
+        font-size: 1.1em;
+    }
+
+    .imagem-coca {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    
+    .imagem-coca img {
+        width: 250px;
+    }
+
+
+
+    /* secao regiao */
+    #texto-regiao {
+        padding: 100px 45px;
+    }
+
+    #texto-regiao>h1 {
+        font-family: keep;
+        font-size: 2.1em;
+        color:var(--cor-lata-zero);
+    }
+
+    #imagem-pessoas {
+        display: block;
+    }
+
+
+
+    /* seçao produtos */
+    #produtos {
+        padding: 100px 10px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    #texto-produto {
+        padding: 0;
+        text-align: end;
+    }
+
+    #texto-produto>h1 {
+        font-family: keep;
+        font-size: 2.1em;
+        color: white;
+    }
+
+    #texto-produto>p {
+        font-size: 1.2em;
+        
+    }
+
+    #imagem-produto {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+
+    
+    /* secao coca retornável online */
+    #retornavel-online {
+        padding: 20px 10px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    
+    }
+
+    #texto-retornavel-online {
+        padding: 100px 10px;
+        
+    }
+
+    #imagem-retornavel-online {
+        margin-top: 0;
+        padding: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #imagem-retornavel-online>img {
+        width: 380px;
+    }
+
+    #texto-retornavel-online>h1 {
+        font-size: 2.1em;
+    }
+
+    #texto-retornavel-online>p {
+        font-size: 1.2em;
+        
+    }
+    #imagem-retornavel-online {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+
+
+    /* seção cadastro */
+    #texto-cadastro {
+        padding: 100px 45px;
+        text-align: end;
+    }
+    
+    #texto-cadastro>h1 {
+        font-family: keep;
+        font-size: 2.1em;
+        color:var(--cor-lata-light);
+    }
+}
+
+
